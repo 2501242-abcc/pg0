@@ -1,6 +1,7 @@
 body{
     margin: 0;
-    background-color: #756969;
+    background-color: #a9a9a9;
+    font-family: Noto Serif JP;
 }
 .header{
     width: 100%;
@@ -30,9 +31,14 @@ body{
     margin-right: 10px;
     color: #333333;
 }
+.nav a:hover{
+    border-bottom: 2px solid #ff8cc9;
+    
+    color: #ff8cc9;
+}
 .title{
-    margin: 0;
-    margin-top: 55px;
+    margin-bottom: 40px;
+    margin-top: 70px;
 
 }
 .title h1{
@@ -43,10 +49,11 @@ body{
     text-align: center;
 }
 .content{
-    width: 100%;
+    width: 80%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    margin: auto;
 }
 .item{
     background-color: #ffffff;
@@ -54,7 +61,82 @@ body{
     margin: 10px;
     padding: 10px;
     text-align: center;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    
 }
+
 img{
     width: 90%;
+}
+.item h3{
+    font-size: 30px;
+}
+.item li{
+    font-size: 20px;
+    margin-bottom: 10%;
+}
+
+.item button{
+    width: 90%;
+    height: 40px;
+    background-color: #333333;
+    color: #ffffff;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+}
+.item button:hover{
+    border-bottom-color: transparent;
+	transform: translateY(0.1875em);
+    opacity: 0.9;
+    color: #ffffff;
+}
+.img{
+    height: 65%;
+}
+#hagi{
+    width: 100%;
+    height: 545px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+    justify-content: center;
+    background: 
+    linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), 
+    url('image/hagi.jpg') center/cover no-repeat;
+    margin-top: 50px;
+    text-shadow: 3px 3px 7px #000;
+    color: #ffffff;
+}
+#hagi h3{
+    font-size: 50px;
+    margin: 0;
+}
+.item2{
+    width: 30%;
+    background-color: #ffffff;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+footer{
+    width: 100%;
+    padding: 30px;
+    background-color: #5d5858;
+    color: #ffffff;
+    text-align: center;
+    box-sizing: border-box;
+}
+#aso{
+    width: 30%;
+}
+#aso:hover{
+    border-bottom-color: transparent;
+	transform: translateY(0.1875em);
+    opacity: 0.9;
+    color: #ffffff;
+}
+#item2{
+    background-color: #a9a9a9;
 }
